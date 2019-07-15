@@ -28,7 +28,10 @@
 
   <body>
 
-
+<div class="sidebar-top">
+   <?php dynamic_sidebar('top-sidebar'); ?>
+   
+</div>
    <!-- Header
       ================================================== -->
       <header>
