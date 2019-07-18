@@ -4,10 +4,10 @@
     <list default="true" id="87c27068-ffcd-46bb-aaf0-d9043cc67f58" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/header-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,13 +30,17 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -44,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="185" column="22" lean-forward="true" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+            <state relative-caret-position="351">
+              <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -66,6 +70,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,8 +83,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,7 +116,8 @@
       <option name="presentableId" value="Default" />
       <updated>1562857011999</updated>
       <workItem from="1562857014788" duration="2513000" />
-      <workItem from="1563184997615" duration="279000" />
+      <workItem from="1563184997615" duration="1324000" />
+      <workItem from="1563191957353" duration="231000" />
     </task>
     <task id="LOCAL-00001" summary="project build by using wordpress">
       <created>1562857372217</created>
@@ -128,17 +133,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562858443723</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="registered menu and sidebar Wordpress">
+      <created>1563188046877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563188046877</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2792000" />
+    <option name="totallyTimeSpent" value="4068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -175,7 +187,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="project build by using wordpress" />
-    <option name="LAST_COMMIT_MESSAGE" value="project build by using wordpress" />
+    <MESSAGE value="registered menu and sidebar Wordpress" />
+    <option name="LAST_COMMIT_MESSAGE" value="registered menu and sidebar Wordpress" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -185,14 +198,14 @@
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="185" column="22" lean-forward="true" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+        <state relative-caret-position="351">
+          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
         </state>
       </provider>
     </entry>
