@@ -52,9 +52,8 @@
                </div>
 
                <div class="post-content entry">
-                  <?php the_excerpt(); ?>
-
-                  <!-- <p> <?php the_content(); ?></p> -->
+               <?php the_excerpt();?>
+         
 
                  
                </div>

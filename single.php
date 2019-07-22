@@ -1,37 +1,74 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package sparrow
- */
+<?php get_header() ?>
 
-get_header();
-?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+   <!-- Page Title
+   ================================================== -->
+  <!-- <?php echo get_post_format() ?> -->
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+  <?php get_post() ?>
 
-			get_template_part( 'template-parts/content', get_post_type() );
+   <!-- Content
+   ================================================== -->
+   <div class="content-outer">
 
-			the_post_navigation();
+      <div id="page-content" class="row">
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+         <div id="primary" class="eight columns">
 
-		endwhile; // End of the loop.
-		?>
+     <!-- выводится часть поста с папки  post-templates с форматом, который мы присвоили в админке(если добавлен get_post_format()) -->
+         <?php get_template_part('post-templates/post', get_post_format() ); ?>
+         
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+         </div> <!-- Primary End-->
 
-<?php
-get_sidebar();
-get_footer();
+         <div id="secondary" class="four columns end">
+
+            <?php get_sidebar() ?>
+         </div> <!-- Secondary End-->
+
+      </div>
+
+   </div> <!-- Content End-->
+
+   <!-- Tweets Section
+   ================================================== -->
+   <section id="tweets">
+
+      <div class="row">
+
+         <div class="tweeter-icon align-center">
+            <i class="fa fa-twitter"></i>
+         </div>
+
+         <ul id="twitter" class="align-center">
+            <li>
+               <span>
+               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+               <a href="#">http://t.co/CGIrdxIlI3</a>
+               </span>
+               <b><a href="#">2 Days Ago</a></b>
+            </li>
+            <!--
+            <li>
+               <span>
+               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+               Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+               <a href="#">http://t.co/CGIrdxIlI3</a>
+               </span>
+               <b><a href="#">3 Days Ago</a></b>
+            </li>
+            -->
+         </ul>
+
+         <p class="align-center"><a href="#" class="button">Follow us</a></p>
+
+      </div>
+
+   </section> <!-- Tweets Section End-->
+
+ <?php get_footer() ?>
+
+</body>
+
+</html>
